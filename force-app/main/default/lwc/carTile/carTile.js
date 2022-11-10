@@ -13,6 +13,12 @@ export default class CarTile extends LightningElement {
     subscription =null;
     //
 
+    //there is no use in the project for the next method
+    handleCssClass(){
+
+        console.log('Handle a css class');
+    }
+
     handleCarSelect(event){
       
         event.preventDefault(); //default action of this anchor will be prevented
