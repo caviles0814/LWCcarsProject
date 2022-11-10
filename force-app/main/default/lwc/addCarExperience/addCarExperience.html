@@ -1,0 +1,16 @@
+<template>
+    <lightning-card>
+        <lightning-layout multiple-rows>
+            <lightning-layout-item size="12" padding="around-small">
+                <lightning-input  label="Title" onchange={titleChange}></lightning-input>
+            </lightning-layout-item>
+            <lightning-layout-item size="12" padding="around-small">
+                <lightning-input-rich-text  label="Description" onchange={handleDescription} ></lightning-input-rich-text>
+            </lightning-layout-item>
+            <lightning-layout-item size="12" padding="around-small">
+                <lightning-button class="slds-m-top_small" label="Cancel" onclick={handleCancel}> </lightning-button>
+                <lightning-button class="slds-m-top_small" label="Submit" onclick={addExperience}> </lightning-button>
+            </lightning-layout-item>
+        </lightning-layout>
+    </lightning-card>
+</template>
