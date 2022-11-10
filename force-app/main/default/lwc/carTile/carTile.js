@@ -38,3 +38,4 @@ export default class CarTile extends LightningElement {
         return 'tile';
     } */
 }
+// chages made today November 10
